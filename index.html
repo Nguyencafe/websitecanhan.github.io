@@ -3,44 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thẻ Thông Tin Cá Nhân</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <title>Trang cá nhân - Nguyễn Văn A</title>
+    <link rel="stylesheet" href="1.css">
+    <link rel="icon" href="data:,"> 
 </head>
 <body>
     <div class="container">
-        <div class="profile-card">
-            <div class="card-header">
-                <h1>Thông Tin Sinh Viên</h1>
-                <div class="decor-line"></div>
-            </div>
-            
-            <div class="card-body">
-                <div class="info-item">
-                    <span class="label">👤 Họ và tên:</span>
-                    <span class="value">Nguyễn Văn A</span>
-                </div>
+        <header class="profile-card">
+            <div class="profile">
+                <img src="./anh-ca-nhan.jpg" alt="Ảnh cá nhân" class="profile-img">
+                <div class="profile-info">
+                    <h1>Nguyễn Văn A</h1>
+                    <div class="contact-info">
+                        <div class="cv-item"><span>📅 01/01/2000</span></div>
+                        <div class="cv-item"><span>📧 nguyenvana@email.com</span></div>
+                        <div class="cv-item"><span>📱 0123 456 789</span></div>
+                        <div class="cv-item"><span>📍 Hà Nội, Việt Nam</span></div>
+                    </div>
+                    
+                    <div class="cv-section">
+                        <h3>🎓 Học vấn</h3>
+                        <p>Đại học Bách Khoa Hà Nội</p>
+                        <p>Chuyên ngành: Công nghệ Thông tin</p>
+                        <p>GPA: 3.6/4.0</p>
+                    </div>
 
-                <div class="info-item">
-                    <span class="label">🎓 MSSV:</span>
-                    <span class="value">22123456</span>
-                </div>
+                    <div class="cv-section">
+                        <h3>🛠️ Kỹ năng</h3>
+                        <div class="skill-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">Git</span>
+                        </div>
+                    </div>
 
-                <div class="info-item">
-                    <span class="label">🎂 Ngày sinh:</span>
-                    <span class="value">01/01/2000</span>
-                </div>
-
-                <div class="info-item">
-                    <span class="label">🏫 Lớp:</span>
-                    <span class="value">K22CNTT</span>
+                    <!-- Danh sách các môn học -->
+                    <div class="cv-section">
+                        <h3>📚 Các môn học</h3>
+                        <div class="subject-list">
+                            <div class="year">
+                                <h4>📖 Năm 1</h4>
+                                <ul>
+                                    <li>Toán cao cấp</li>
+                                    <li>Lập trình C cơ bản</li>
+                                    <li>Nhập môn CNTT</li>
+                                    <li>Vật lý đại cương</li>
+                                </ul>
+                            </div>
+                            <div class="year">
+                                <h4>📖 Năm 2</h4>
+                                <ul>
+                                    <li>Cấu trúc dữ liệu & Giải thuật</li>
+                                    <li>Lập trình hướng đối tượng (Java)</li>
+                                    <li>Cơ sở dữ liệu</li>
+                                    <li>Hệ điều hành</li>
+                                </ul>
+                            </div>
+                            <div class="year">
+                                <h4>📖 Năm 3</h4>
+                                <ul>
+                                    <li>Phát triển Web</li>
+                                    <li>Mạng máy tính</li>
+                                    <li>Machine Learning cơ bản</li>
+                                    <li>Phân tích & Thiết kế phần mềm</li>
+                                </ul>
+                            </div>
+                            <div class="year">
+                                <h4>📖 Năm 4</h4>
+                                <ul>
+                                    <li>Đồ án tốt nghiệp</li>
+                                    <li>Bảo mật hệ thống</li>
+                                    <li>Cloud Computing</li>
+                                    <li>Quản lý dự án phần mềm</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
-            <div class="card-footer">
-                <div class="university">Đại Học Công Nghệ Thông Tin</div>
-            </div>
-        </div>
+        </header>
     </div>
 </body>
 </html>
